@@ -365,14 +365,14 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
   <div class="container">
     <div class="hero-inner">
       <div>
-        <div class="launch-ribbon"><span class="rdot"></span> Disponível na Google Play · iPhone chegando</div>
-        <div class="hero-eyebrow">Android · iPhone em testes finais · 2026</div>
+        <div class="launch-ribbon"><span class="rdot"></span> Disponível na Google Play · iPhone e iPad em análise na App Store</div>
+        <div class="hero-eyebrow">Android · iPhone · iPad · Wear OS · Apple Watch · 2026</div>
         <h1 class="hero-title">
           Nunca perca<br>
           <span class="accent">uma jogada</span><br>
           de novo.
         </h1>
-        <p class="hero-body">Câmera no tripé, controle Bluetooth no pulso — o SmartReplay Sport salva os últimos segundos da sua jogada com um clique. Sem re-codificação. Sem atraso. Sem erro.</p>
+        <p class="hero-body">Câmera no tripé, controle no pulso — o SmartReplay Sport salva os últimos segundos da sua jogada com um toque. Sem re-codificação, sem atraso, sem editar depois.</p>
         <div class="hero-actions">
           <button class="btn-amber" onclick="window.open('https://play.google.com/store/apps/details?id=com.replaysport.app','_blank')">📲 Baixar na Google Play</button>
           <button class="btn-ghost" onclick="document.getElementById('screenshots').scrollIntoView({behavior:'smooth'})">📱 Ver o app</button>
@@ -401,8 +401,8 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
       <div class="stat-item reveal"><div class="stat-num">90s</div><div class="stat-label">Buffer<br>máximo PRO</div></div>
       <div class="stat-item reveal d1"><div class="stat-num">0</div><div class="stat-label">Re-<br>codificação</div></div>
       <div class="stat-item reveal d2"><div class="stat-num">4×</div><div class="stat-label">Níveis<br>de zoom</div></div>
-      <div class="stat-item reveal d3"><div class="stat-num">3</div><div class="stat-label">Modos de<br>gatilho</div></div>
-      <div class="stat-item reveal"><div class="stat-num" style="color:var(--amber);font-size:1.8rem;line-height:1.1">⌚</div><div class="stat-label">Controle por<br>Wear OS</div></div>
+      <div class="stat-item reveal d3"><div class="stat-num">4</div><div class="stat-label">Modos de<br>gatilho</div></div>
+      <div class="stat-item reveal"><div class="stat-num" style="color:var(--amber);font-size:1.8rem;line-height:1.1">⌚</div><div class="stat-label">Controle no pulso<br>Wear OS e Apple Watch</div></div>
     </div>
   </div>
 </section>
@@ -416,10 +416,10 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
     <div class="usage-steps reveal">
       <div class="u-step"><div class="u-num">1</div><div class="u-icon">📍</div><p><strong>Posicione o celular</strong> no ângulo que você quer ver depois — tripé apontado pra quadra, pendurado na cerca ou apoiado numa mochila.</p></div>
       <div class="u-step"><div class="u-num">2</div><div class="u-icon">📲</div><p><strong>Abra o SmartReplay</strong> e enquadre a área de captura na tela — use o zoom se precisar.</p></div>
-      <div class="u-step"><div class="u-num">3</div><div class="u-icon">⚙️</div><p><strong>Configure</strong> o tempo do replay e como vai acionar: toque na tela, controle Bluetooth, SmartWatch e/ou comando de voz.</p></div>
+      <div class="u-step"><div class="u-num">3</div><div class="u-icon">⚙️</div><p><strong>Escolha</strong> o tempo do replay e como vai acionar: toque na tela, controle Bluetooth, relógio e/ou comando de voz. Na primeira vez, o próprio app ensina em quatro toques.</p></div>
       <div class="u-step"><div class="u-num">4</div><div class="u-icon">▶️</div><p><strong>Inicie a captura</strong> e vá jogar — o app grava continuamente, sozinho.</p></div>
-      <div class="u-step"><div class="u-num">5</div><div class="u-icon">🔥</div><p><strong>Saiu uma jogada incrível?</strong> Aperte Salvar, clique no controle ou fale sua expressão de voz.</p></div>
-      <div class="u-step"><div class="u-num">6</div><div class="u-icon">🖼️</div><p><strong>Pronto:</strong> os últimos segundos viram um clipe na galeria do celular (Movies/ReplaySport), na hora.</p></div>
+      <div class="u-step"><div class="u-num">5</div><div class="u-icon">🔥</div><p><strong>Saiu uma jogada incrível?</strong> Aperte Salvar, clique no controle, fale sua expressão — ou toque no relógio. Foi das boas? Marque com a estrela.</p></div>
+      <div class="u-step"><div class="u-num">6</div><div class="u-icon">🖼️</div><p><strong>Pronto:</strong> os últimos segundos viram um clipe no álbum <strong>SmartReplay</strong>, na hora — e os marcados vão para o <strong>SmartReplay Destaques</strong>. O atalho da galeria abre tudo sem sair do app.</p></div>
     </div>
   </div>
 </section>
@@ -620,7 +620,7 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
         <div class="step-num">03</div>
         <div class="step-icon">✂️</div>
         <div class="step-title">Corte e salva</div>
-        <p class="step-body">MediaMuxer Kotlin extrai os últimos N segundos por cópia direta de bytes. Clipe vai para Movies/ReplaySport com orientação e áudio corretos.</p>
+        <p class="step-body">O app recorta os últimos segundos copiando o vídeo como ele já está, sem processar de novo. O clipe vai para o álbum SmartReplay com orientação e áudio corretos, na hora.</p>
       </div>
     </div>
   </div>
@@ -637,30 +637,33 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
     <div class="feat-layout">
       <div class="feat-list reveal">
         <div class="feat-item"><div class="feat-icon">🔵</div><div><div class="feat-title">Controle Bluetooth</div><p class="feat-desc">Qualquer controle HID Keyboard. Ideal com celular fixo no tripé — salva sem tocar na tela.</p></div></div>
-        <div class="feat-item"><div class="feat-icon">🔍</div><div><div class="feat-title">Zoom 0.6× · 1× · 2× · 3×</div><p class="feat-desc">Quatro níveis ajustáveis durante a gravação nos controles rápidos, sem interrupção.</p></div></div>
+        <div class="feat-item"><div class="feat-icon">🔍</div><div><div class="feat-title">Zoom que respeita o seu aparelho</div><p class="feat-desc">O app lê as lentes que existem no seu celular e oferece só o que ele entrega de verdade — incluindo o 0,5× da grande-angular, quando há. Ajuste durante a gravação, sem interrupção.</p></div></div>
         <div class="feat-item"><div class="feat-icon">📷</div><div><div class="feat-title">Câmera frontal e traseira</div><p class="feat-desc">Alterne entre câmeras. Frontal com espelho para análise de postura.</p></div></div>
-        <div class="feat-item"><div class="feat-icon">⏱️</div><div><div class="feat-title">Buffer configurável</div><p class="feat-desc">Até 15s grátis. Até 90s no plano PRO via Google Play.</p></div></div>
+        <div class="feat-item"><div class="feat-icon">⏱️</div><div><div class="feat-title">Tempo de replay configurável</div><p class="feat-desc">Até 15s no plano gratuito e até 90s no PRO. Toque no tempo escrito na tela para mudar sem procurar menu.</p></div></div>
         <div class="feat-item"><div class="feat-icon">🎙️</div><div><div class="feat-title">Comando de voz</div><p class="feat-desc">Par de palavras (ativação + confirmação) evita acionamento por engano. Reconhecimento 100% offline, sem depender de internet.</p></div></div>
         <div class="feat-item"><div class="feat-icon">🔦</div><div><div class="feat-title">Flash visual + LED</div><p class="feat-desc">Flash verde neon na tela e LED da câmera piscando confirmam cada salvamento.</p></div></div>
         <div class="feat-item"><div class="feat-icon">💧</div><div><div class="feat-title">Marca d'água opcional</div><p class="feat-desc">Faixa discreta no rodapé. Removível com o plano PRO.</p></div></div>
-        <div class="feat-item"><div class="feat-icon">📁</div><div><div class="feat-title">Salva direto na galeria</div><p class="feat-desc">Movies/ReplaySport — abre em qualquer player ou app de edição sem transferência.</p></div></div>
+        <div class="feat-item"><div class="feat-icon">📁</div><div><div class="feat-title">Salva direto na galeria</div><p class="feat-desc">Álbum <strong>SmartReplay</strong> no seu celular. Abre em qualquer player ou app de edição, sem transferir nada.</p></div></div>
+        <div class="feat-item"><div class="feat-icon">⭐</div><div><div class="feat-title">Destaque o que valeu</div><p class="feat-desc">Numa partida você salva dezenas de lances — e depois cansa de procurar o melhor. Um toque no relógio manda o clipe para o álbum <strong>SmartReplay Destaques</strong>, separado dos demais.</p></div></div>
+        <div class="feat-item"><div class="feat-icon">🖼️</div><div><div class="feat-title">Sua galeria a um toque</div><p class="feat-desc">Assista e compartilhe o que acabou de gravar sem sair do app e sem caçar pasta.</p></div></div>
+        <div class="feat-item"><div class="feat-icon">🎓</div><div><div class="feat-title">Aprende em 4 toques</div><p class="feat-desc">Na primeira vez, o app ensina fazendo: você toca em cada botão e ele explica na hora. Sem manual, sem vídeo.</p></div></div>
         <div class="feat-item"><div class="feat-icon">📊</div><div><div class="feat-title">Linha de status compacta</div><p class="feat-desc">Resolução, orientação, áudio, BT e duração visíveis de relance no topo da tela.</p></div></div>
       </div>
       <div>
         <div class="tech-card reveal d1">
           <div class="tech-label">Especificações técnicas</div>
-          <div class="tech-row"><span class="tkey">Versão</span><span class="tval"><span class="live-badge"><span class="ldot"></span>v1.5</span></span></div>
-          <div class="tech-row"><span class="tkey">Plataforma</span><span class="tval">Android 8.0+</span></div>
-          <div class="tech-row"><span class="tkey">Framework</span><span class="tval">Flutter + Kotlin</span></div>
+          <div class="tech-row"><span class="tkey">Versão</span><span class="tval"><span class="live-badge"><span class="ldot"></span>v1.5.5</span></span></div>
+          <div class="tech-row"><span class="tkey">Plataforma</span><span class="tval">Android 10+ · iPhone e iPad (iOS 15+)</span></div>
+          <div class="tech-row"><span class="tkey">Framework</span><span class="tval">Flutter + Kotlin + Swift</span></div>
           <div class="tech-row"><span class="tkey">Re-codificação</span><span class="tval g">Nunca</span></div>
           <div class="tech-row"><span class="tkey">Buffer Free</span><span class="tval g">até 15s</span></div>
           <div class="tech-row"><span class="tkey">Buffer PRO</span><span class="tval a">até 90s</span></div>
-          <div class="tech-row"><span class="tkey">Zoom</span><span class="tval">0.6× 1× 2× 3×</span></div>
-          <div class="tech-row"><span class="tkey">Bluetooth</span><span class="tval">HID Keyboard</span></div>
-          <div class="tech-row"><span class="tkey">Destino</span><span class="tval">Movies/ReplaySport</span></div>
-          <div class="tech-row"><span class="tkey">Idioma</span><span class="tval">Português (BR)</span></div>
-          <div class="tech-row"><span class="tkey">Testado em</span><span class="tval">Galaxy S25</span></div>
-          <div class="tech-row"><span class="tkey">Distribuição</span><span class="tval a">Google Play — disponível</span></div>
+          <div class="tech-row"><span class="tkey">Zoom</span><span class="tval">conforme as lentes do aparelho</span></div>
+          <div class="tech-row"><span class="tkey">Relógio</span><span class="tval">Wear OS e Apple Watch</span></div>
+          <div class="tech-row"><span class="tkey">Destino</span><span class="tval">Álbuns SmartReplay e Destaques</span></div>
+          <div class="tech-row"><span class="tkey">Idiomas</span><span class="tval">Português, Inglês e Espanhol</span></div>
+          <div class="tech-row"><span class="tkey">Testado em</span><span class="tval">Galaxy S25 · iPhone · iPad</span></div>
+          <div class="tech-row"><span class="tkey">Distribuição</span><span class="tval a">Google Play — disponível<br>App Store — em análise</span></div>
         </div>
       </div>
     </div>
@@ -673,13 +676,13 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
 <section id="gatilhos">
   <div class="container">
     <div class="tag">Modos de acionamento</div>
-    <h2 class="section-title">3 formas de <span class="green">salvar</span></h2>
-    <p class="section-sub">Use o que melhor se encaixa no seu esporte — ou combine os três.</p>
+    <h2 class="section-title">4 formas de <span class="green">salvar</span></h2>
+    <p class="section-sub">Use o que melhor se encaixa no seu esporte — ou combine todos.</p>
     <div class="triggers reveal">
       <div class="trigger bt">
         <div class="trigger-icon">🔵</div>
         <div class="trigger-name">Bluetooth</div>
-        <p class="trigger-desc">Controle de selfie HID Keyboard — no pulso ou preso ao tripé. Salva sem encostar no celular. Indicado para setup com tripé fixo.</p>
+        <p class="trigger-desc">Controle de selfie comum, no pulso ou preso ao tripé. Salva sem encostar no celular — o setup mais confiável para tripé fixo.</p>
         <span class="tbadge tb-rec">⭐ Recomendado</span>
       </div>
       <div class="trigger tap">
@@ -688,10 +691,16 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
         <p class="trigger-desc">Botão grande "Salvar Replay" na interface. Funciona com luvas ou dedos suados. Ideal quando o celular está na mão.</p>
         <span class="tbadge tb-ok">✓ Estável</span>
       </div>
+      <div class="trigger watch">
+        <div class="trigger-icon">⌚</div>
+        <div class="trigger-name">Relógio</div>
+        <p class="trigger-desc">Salvar, iniciar, parar e destacar direto do pulso — no Wear OS e no Apple Watch. Você nem olha para o celular.</p>
+        <span class="tbadge tb-ok">✓ Nas duas plataformas</span>
+      </div>
       <div class="trigger voice">
         <div class="trigger-icon">🎙️</div>
         <div class="trigger-name">Voz</div>
-        <p class="trigger-desc">Diga "Salva" — janela de 8s e confirmação evitam falsos positivos. Ideal com mãos ocupadas. Em aprimoramento em alguns dispositivos.</p>
+        <p class="trigger-desc">Diga uma expressão de duas palavras, escolhida por você. Funciona sem internet, e as duas palavras evitam que uma conversa qualquer acione sem querer.</p>
         <span class="tbadge tb-beta">Em aprimoramento</span>
       </div>
     </div>
@@ -703,7 +712,7 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
   <div class="container">
     <div class="tag">Planos</div>
     <h2 class="section-title">Comece <span class="green">grátis.</span><br>Evolua quando quiser.</h2>
-    <p class="section-sub">SmartReplay Sport é gratuito com recursos essenciais. PRO desbloqueia buffers maiores e remove a marca d'água.</p>
+    <p class="section-sub">O SmartReplay Sport é gratuito e completo: grava, salva, destaca e funciona no relógio sem pagar nada. O PRO estende o tempo de replay e libera a sua marca no vídeo.</p>
     <div class="plans reveal">
       <div class="plan">
         <div class="plan-name">Free</div>
@@ -711,9 +720,10 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
         <div class="plan-sub">Para experimentar e usar no dia a dia sem custo.</div>
         <ul class="plan-feats">
           <li>Buffer de até 15s</li>
-          <li>Zoom 0.6× · 1× · 2× · 3×</li>
+          <li>Zoom conforme as lentes do aparelho</li>
           <li>Câmera frontal &amp; traseira</li>
-          <li>Controle Bluetooth</li>
+          <li>Controle Bluetooth, voz e relógio</li>
+            <li>Destaques e atalho da galeria</li>
           <li>Flash visual + LED câmera</li>
           <li>Linha de status compacta</li>
           <li class="off">Buffer até 90s (PRO)</li>
@@ -725,13 +735,14 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
         <div class="plan-badge">⚡ Disponível na Google Play</div>
         <div class="plan-name">PRO</div>
         <div class="plan-price" style="color:var(--amber)"><sup>US$</sup>5,99<span class="per">/ano</span></div>
-        <div class="plan-sub">≈ R$35/ano · Renovação anual via Google Play.</div>
+        <div class="plan-sub">≈ R$35/ano · Renovação anual pela loja do seu aparelho.</div>
         <ul class="plan-feats">
           <li>Tudo do Free</li>
           <li>Buffer de até 90s</li>
           <li>Duplo clique dobra o tempo de captura</li>
           <li>Sem marca d'água</li>
-          <li>Sem anunciantes</li>
+          <li>Sem anúncios</li>
+            <li>Sua marca no rodapé do vídeo</li>
           <li>Acesso antecipado a novidades</li>
           <li>Suporte prioritário</li>
         </ul>
@@ -774,7 +785,7 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
       </details>
       <details class="faq-item">
         <summary>Dá pra acionar o salvamento pelo relógio (smartwatch)?</summary>
-        <p>Sim. Com um relógio Wear OS pareado ao celular, dá pra Salvar, Iniciar e Parar a gravação direto do pulso, sem tocar no celular — ótimo pra quem deixa o aparelho fixo no tripé, longe de alcance.</p>
+        <p>Sim, nas duas plataformas. Com um relógio <strong>Wear OS</strong> ou um <strong>Apple Watch</strong> pareado, dá para Salvar, Iniciar, Parar e ainda <strong>destacar</strong> a jogada direto do pulso — ótimo para quem deixa o celular fixo no tripé, fora de alcance. No Apple Watch, o app precisa estar aberto na tela do iPhone; no Wear OS, não.</p>
       </details>
       <details class="faq-item" open>
         <summary>⭐ Como instalar o app no relógio (SmartWatch)?</summary>
@@ -802,7 +813,7 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
       </details>
       <details class="faq-item">
         <summary>Onde ficam salvos os vídeos?</summary>
-        <p>Direto na galeria do seu aparelho, pasta Movies/ReplaySport — o SmartReplay não armazena nem transmite nada pra nenhum servidor. Os arquivos são seus, do jeito que qualquer outro vídeo salvo no celular.</p>
+        <p>Direto na galeria do seu aparelho, no álbum <strong>SmartReplay</strong> — e os que você marcar com a estrela vão para o <strong>SmartReplay Destaques</strong>, separados dos demais. O SmartReplay não armazena nem transmite nada para nenhum servidor: os arquivos são seus, como qualquer outro vídeo do celular.</p>
       </details>
     </div>
   </div>
@@ -814,9 +825,9 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
     <div class="legal-box">
       <div class="legal-title">⚖️ Informações legais e limitações</div>
       <p class="legal-text">
-        <strong>Versão atual (v1.5.4):</strong> SmartReplay Sport está disponível na Google Play Store. Funcionalidades podem receber pequenos ajustes em atualizações futuras.<br/><br/>
-        <strong>Limitações conhecidas:</strong> Qualidade de vídeo e desempenho do reconhecimento de voz dependem do modelo de aparelho utilizado. Controle Bluetooth, botão de volume e comando por relógio inteligente (Wear OS) também funcionam como gatilho de salvamento.<br/><br/>
-        <strong>Privacidade:</strong> O SmartReplay Sport não coleta, transmite nem armazena vídeos em servidores externos. Todos os vídeos ficam exclusivamente no dispositivo, em <em>Movies/ReplaySport</em>. Permissões necessárias: câmera, microfone (opcional) e armazenamento.<br/><br/>
+        <strong>Versão atual (v1.5.5):</strong> disponível na Google Play Store para Android e Wear OS. A versão para iPhone, iPad e Apple Watch está em análise na App Store. Funcionalidades podem receber pequenos ajustes em atualizações futuras.<br/><br/>
+        <strong>Limitações conhecidas:</strong> qualidade de vídeo, lentes disponíveis e desempenho do reconhecimento de voz dependem do modelo do aparelho. Controle Bluetooth, botões de volume e relógio inteligente também funcionam como gatilho. No Apple Watch, o app do iPhone precisa estar aberto na tela para receber o comando — é uma limitação do sistema da Apple, não do aplicativo; no Wear OS não há essa exigência.<br/><br/>
+        <strong>Privacidade:</strong> o SmartReplay Sport não coleta, transmite nem armazena vídeos em servidores externos. Todos os vídeos ficam exclusivamente no seu aparelho, nos álbuns <em>SmartReplay</em> e <em>SmartReplay Destaques</em>. Permissões necessárias: câmera, microfone (opcional) e acesso à galeria para salvar. A versão gratuita exibe anúncios do Google AdMob — a <a href="https://edwardborba.github.io/smartreplay-privacy/" target="_blank" rel="noopener">política de privacidade</a> descreve o que é coletado.<br/><br/>
         <strong>Licença:</strong> Software proprietário. Uso pessoal exclusivo. Proibida redistribuição comercial sem autorização. © 2026 Edward Lucio Vieira Borba. Todos os direitos reservados.<br/><br/>
         <strong>Isenção:</strong> O uso durante atividades esportivas deve respeitar regras dos locais e competições. O autor não se responsabiliza por danos decorrentes do uso inadequado.<br/><br/>
         <strong>Direito de imagem:</strong> Todas as pessoas que aparecem nas fotos e vídeos deste site autorizaram expressamente o uso de sua imagem para fins de divulgação do SmartReplay Sport. Nenhuma imagem foi utilizada sem consentimento de quem aparece nela.
@@ -860,7 +871,7 @@ a.video-card{display:block;text-decoration:none;color:inherit;}
       <a href="https://www.instagram.com/smartreplay.68" target="_blank" rel="noopener">Instagram</a>
       <a href="https://www.youtube.com/@SmartReplay.Sports" target="_blank" rel="noopener">YouTube</a>
     </div>
-    <div class="footer-copy">© 2026 Edward Lucio Vieira Borba · Uso pessoal exclusivo · Google Play — disponível</div>
+    <div class="footer-copy">© 2026 Edward Lucio Vieira Borba · Uso pessoal exclusivo · Google Play — disponível · App Store — em análise</div>
   </div>
 </footer>
 
